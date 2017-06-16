@@ -33,14 +33,14 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/6.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
 	position: relative;
 }
 .banner-info{
-	background:  url(../images/dott.png)repeat 0px 0px;
+	/*background:  url(../images/dott.png)repeat 0px 0px;*/
 	padding: 4em 0;
 }
 
@@ -122,7 +122,7 @@ ul.address li ul.address-text li:nth-child(1){
 	width: 30%;
 }
 ul.address li ul.address-text li a {
-    color: #fff;
+    /*color: #fff;*/
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
@@ -1202,8 +1202,12 @@ ul.social-buttons li a:hover{
     /*color: white;*/
     color: black;
 }
-.downloadResume{
-    color: black;
+.w3l-banner-grids {
+    margin: 4em 0 0 0;
+    padding: 2em 1em;
+    background: rgba(255, 255, 255, 0.18);
 }
- 
+.w3l-banner-grids {
+		margin: 2em 0 0 0;
+	}
 /*--//responsive-design---*/
