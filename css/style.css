@@ -8,6 +8,7 @@ body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
+    overflow-x: hidden;
 }
 body a{
 	transition: 0.5s all;
