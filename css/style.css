@@ -55,7 +55,12 @@ body a:hover{
     font-size: 1em;
     color: #fff;
     margin-top: 1.5em;
-	font-weight: 100; 
+	font-weight: 100;
+    text-align: justify; 
+}
+
+.header-left button a{
+    color: #fff;
 }
 
 .header-center img {
@@ -1213,18 +1218,27 @@ ul.social-buttons li a:hover{
 .resume-button{
         /*background-color: #008B8B;*/
         /*color: #fff;*/
+         background-color: #008B8B;
         border: none;
         border-radius: 8px;
-        height: 50px;
-        width: 55%;
+        /*color: white;*/
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        /*height: auto;
+        width: auto;*/
         }
 .resume-button:hover{
-    background-color: #008B8B;
-    color: white;
+    /*background-color: #008B8B;
+    color: white;*/
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .resume-button a:hover{
-    color: white;
+    /*color: white;*/
 }
  
 
